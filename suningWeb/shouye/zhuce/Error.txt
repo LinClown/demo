@@ -1,0 +1,2 @@
+﻿文件下载网址  =>  文件保存路径
+https://res.suning.cn/public/v3/css/images/public.sprite.png?v=20140825  =>  D:\黑马8期\JS\01 js\01-JavaScript{JS基础语法}\02其他资料\扒站工具\reg.suning.com\images\public.sprite.png

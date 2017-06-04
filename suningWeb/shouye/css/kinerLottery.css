@@ -1,0 +1,92 @@
+@charset "UTF-8";
+html { font-size: 20px; }
+@media only screen and (min-width:401px) {
+    html { font-size: 25px !important; }
+}
+@media only screen and (min-width:428px) {
+    html { font-size: 26.75px !important; }
+}
+@media only screen and (min-width:481px) {
+    html { font-size: 30px !important; }
+}
+@media only screen and (min-width:569px) {
+    html { font-size: 35px !important; }
+}
+@media only screen and (min-width:641px) {
+    html { font-size: 40px !important; }
+}
+html, body { padding: 0; margin: 0; height: 100%; }
+
+.box-box { width: 14rem; z-index:400;height: 14rem; position: relative;display: none; margin: 0 auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); }
+.box-box .outer { width: 100%; height: 100%; position: absolute; z-index: 1; top: 0; left: 0; transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); }
+.box-box .outer img { width: 100%; }
+.box-box .inner { position: relative; width: 5rem; height: 5rem; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 2; background-image: url(../images/arrow.png); background-size: auto 5rem; background-repeat: no-repeat; }
+.box-box .inner.start:active { -webkit-transform: translate(-50%, -50%) scale(.95); -moz-transform: translate(-50%, -50%) scale(.95); -ms-transform: translate(-50%, -50%) scale(.95); -o-transform: translate(-50%, -50%) scale(.95); transform: translate(-50%, -50%) scale(.95); }
+.box-box .inner.start { background-position: 0 0; }
+.box-box .inner.no-start { background-position: -5rem 0; }
+.box-box .inner.completed { background-position: -10rem 0; }
+.result{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -150px;
+    padding-bottom: 20px;
+    background: #fff;
+    display: none;
+    width: 300px;
+    height: 150px;
+    z-index: 300;
+    border: 2px solid ;
+}
+.result a{
+    float: right;
+    font-size: 25px;
+    line-height: 30px;
+    color:black;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .3);
+}
+.result p{
+    font-size: 25px ;
+    text-align: center;
+    margin-top: 20px;
+}
+.result .result-btn{
+    background-color: rgb(102, 102, 102);
+    width: 300px;
+    height: 30px;
+}
+.mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    display: none;
+    z-index: 300;
+}
+.result .ben1{
+    width: 80px;
+    height: 50px;
+    /*width: 25px;*/
+    /*height: 8px;*/
+    /*background:url("../images/jingling.png") no-repeat no-repeat -37px 0;*/
+    margin: 44px 110px;
+    background-color: red;
+    font-size: 25px;
+    text-align: center;
+
+}
+.mask1{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    display: none;
+    z-index: 500;
+}

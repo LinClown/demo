@@ -1,0 +1,38 @@
+.footer {
+    height:175px;
+    margin-top: 0;
+}
+.footer {
+    height:160px;
+    background:none;
+    text-align:center;
+}
+.footer p.list span {
+    padding: 0 12px 0 8px;
+}
+.footer p.list  {
+    height:25px;
+    line-height:25px;
+}
+.footer p.list a {
+    color:#666666;
+}
+.footer p.list a:hover {
+    color: #f60;
+    text-decoration: none;
+}
+.footer .authentication {
+    float:none;
+    height:25px;
+    width:990px;
+    margin:5px auto;
+}
+.footer p.copyright {
+    float:none;
+    width:100%;
+    padding-top: 10px;
+}
+.footer p.copyright span {
+    padding-left: 8px;
+    padding-right: 12px;
+}

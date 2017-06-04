@@ -1,0 +1,444 @@
+/*最顶部导航开始======*/
+.top-box {
+    height: 35px;
+    /*background-color: darkorange;*/
+    background-color: #F5F5F5;
+    line-height: 35px;
+
+}
+
+.top-box .top-in {
+    position: relative;
+}
+
+.top-in .top-left {
+    float: left;
+    width: 290px;
+
+}
+.top-left .backhome i{
+    display: inline-block;
+    height: 34px;
+    width: 16px;
+    background: url(../images/_r2_c2.png) no-repeat;
+    float: left;
+}
+.top-left .backhome span{
+    float: left;
+}
+.top-left .backhome, .top-left .nav-box, .top-left .shangJia {
+    float: left;
+    padding: 0 10px;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+/*//��վ����*/
+/*�������е�Сͼ��*/
+.top-box .top-in .hot{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(../images/npbg.png) no-repeat 0 -205px;
+    /*background: url(../images/_r3_c4.png) no-repeat;*/
+}
+ .top-left .nav-box .nav-child {
+    width: 960px;
+    height: 237px;
+    border: 1px solid #F5F5F5;
+    border-top: 1px solid transparent;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+ .top-left .nav-box .nav-child dl {
+    width: 168px;
+    float: left;
+    padding-left: 20px;
+    border-right: 1px solid #F5F5F5;
+}
+
+ .top-left .nav-box .nav-child .gengDuo-list {
+    border-right: 0 solid transparent;
+}
+
+ .top-left .nav-box .nav-child dt {
+    font-weight: 700;
+    font-size: 14px;
+    height: 30px;
+
+}
+
+ .top-left .nav-box .nav-child dd p {
+    float: left;
+    width: 84px;
+    height: 25px;
+}
+
+/*��վ��������*/
+/*�̼���פ���ֿ�ʼ*/
+ .top-left .shangJia .ng-ser-list {
+    width: 168px;
+    padding-left: 10px;
+    border: 1px solid #F5F5F5;
+    border-top: 1px solid transparent;
+    position: absolute;
+    top: 35px;
+    left: 190px;
+    background-color: #fff;
+}
+
+.top-left .shangJia .ng-ser-list a {
+    float: left;
+    display: block;
+    width: 84px;
+    height: 25px;
+}
+
+/*�̼���פ���ֽ���*/
+.top-box .top-in .top-right {
+    float: right;
+    width: 650px;
+    position: relative;
+}
+
+.top-box .top-in .top-right .r {
+    float: left;
+    padding: 0 10px;
+}
+
+/*�ҵĶ�������*/
+ .top-right .my-order-child {
+    width: 71px;
+    padding-left: 10px;
+    border: 1px solid #F5F5F5;
+    border-top: 1px solid transparent;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #fff;
+}
+
+/*�ҵ��׹�����*/
+ .top-right .my-suning-child {
+    width: 150px;
+    padding-left: 10px;
+    border: 1px solid #F5F5F5;
+    border-top: 1px solid transparent;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #fff;
+}
+
+.top-right .my-suning-child .mysuning-infor {
+    height: 70px;
+    padding-top: 10px;
+}
+
+.top-right .my-suning-child .mysuning-infor .left {
+    float: left;
+    display: block;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #F5F5F5;
+}
+
+.top-right .mysuning-infor .mysuning-detail {
+    float: right;
+    width: 75px;
+    /*border: 1px solid deeppink;*/
+}
+
+ .top-right .my-suning-child a {
+    display: block;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    /*border: 1px solid #000;*/
+    float: left;
+    margin-right: 15px;
+     position: relative;
+}
+
+.top-box .top-in .none:hover {
+    color: #333333;
+    text-decoration: none;
+}
+/*���������б����Сͼ��*/
+.my-suning-child #eg{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url(../images/eg.png) no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+/*�ҵĹ��ﳵ*/
+.top-box .top-right  .r{
+    position: relative;
+}
+.top-box .top-right .shopping{
+    font-size: 20px;
+}
+.top-box .top-right .shop a:hover{
+    color:  #FFAA00;
+}
+ .top-right  .r .myCar {/*���ﳵ�в�Ʒ����������*/
+    /*width: 14px;*/
+    height: 14px;
+    background-color: #FFAA00;
+    line-height: 14px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    right:0;
+    top:3px;
+    color: #FFF;
+    font-size: 12px;
+    padding: 0 4px;
+    border-radius:7px;
+}
+/*�ֻ���������*/
+.top-right .app-down-box .mb{
+    display: inline-block;
+    height: 34px;
+    width: 22px;
+    background: url(../images/_r1_c4.png) no-repeat center;
+    float: left;
+}
+ .top-right .app-down-child {
+    width: 360px;
+    height: 220px;
+    border: 1px solid #F5F5F5;
+    border-top: 1px solid transparent;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: #fff;
+
+}
+
+ .top-right .app-down-child .line {
+    margin-top: 16px;
+    height: 98px;
+    width: 1px;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 24px;
+    left: 178px;
+}
+
+.top-right .app-down-child ul li {
+    float: left;
+    padding: 16px;
+    width: 146px;
+    text-align: center;
+
+}
+
+.top-right .app-down-child ul li p {
+    line-height: 20px;
+}
+
+.top-right .app-down-child ul li .top-code {
+    width: 146px;
+    height: 146px;
+}
+
+/*��������*/
+ .top-right .service-child {
+    width: 175px;
+    height: 100px;
+    border: 1px solid #F5F5F5;
+    border-top: 1px solid transparent;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: #fff;
+}
+
+.top-right .service-child a {
+    float: left;
+    padding: 0 15px;
+}
+.service-child .ng-iconfont{
+    display: inline-block;
+    width: 24px;
+    height: 26px;
+    background: url(../images/am.gif) no-repeat;
+    position: absolute;
+    top: 75px;
+    right: 10px;
+}
+/*ͷ��������*/
+
+/*<!--logo���ֿ�ʼ��-->*/
+.logo {
+    height: 110px;
+    /*border-bottom: 1px solid yellow;*/
+}
+
+.logo .logo-box {
+    width: 325px;
+    height: 110px;
+    float: left;
+    margin-right: 65px;
+}
+.logo .search{
+    width: 545px;
+    height: 35px;
+    border: 2px solid #FFAA00;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+}
+
+.logo .search #search-txt{
+    width: 420px;
+    height: 35px;
+    color:#BBBBBB;
+    line-height: 35px;
+    padding-left: 25px;
+    float: left;
+}
+.logo .search .iconfont{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color:#BBBBBB;
+}
+.logo .search span{
+    display: block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #FFAA00;
+    float: left;
+    color: #fff;
+}
+/*�·�����*/
+.logo .search  #search-down{
+    width: 545px;
+    height: 275px;
+    border: 1px solid  #E4E4E4;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    display: none;
+}
+/*��������ಿ��*/
+.search #search-down .search-left{
+    width: 272px;
+    height: 275px;
+    border-right: 1px solid #EEEEEE;
+
+}
+ #search-down .search-left p{
+    height: 30px;
+    line-height: 30px;
+    background-color: #EEEEEE;
+     padding-left:  10px;
+}
+ #search-down .search-left span{
+    display: block;
+    width: 272px;
+    height: 245px;
+    background: #fff url("../images/search-express-none.png") center no-repeat;
+}
+ /*�������Ҳಿ��*/
+
+#search-down .search-right{
+    width: 272px;
+    background-color: #fff;
+}
+#search-down .search-right .iconfont{
+    position: absolute;
+    left: 520px;
+    top: 5px;
+    color: #000;
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+}
+#search-down .search-right .iconfont:hover{
+    color:  #FF6600;
+    cursor: pointer;
+}
+ #search-down .search-right p{
+    height: 30px;
+    line-height: 30px;
+     text-align: left;
+     padding-left:  10px;
+}
+#search-down .search-right ul{
+    padding-left: 5px;
+    height: 245px;
+    overflow: hidden;
+
+}
+#search-down .search-right ul li a{
+    padding: 5px;
+    border: 1px solid #EEEEEE;
+    float: left;
+    margin:5px  8px;
+}
+#search-down .search-right  a:hover{
+    color: #fff;
+    background-color: #FF6600;
+}
+/*//���ȴ�ʱ��������*/
+#search-dv{
+    width: 532px;
+    line-height: 30px;
+    padding-left: 15px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    left: -2px;
+    display: none;
+    background-color: #fff  ;
+    border: 1px solid #eee;
+
+}
+#search-dv .iconfont{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 520px;
+    top: 0;
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+}
+
+#search-dv  .tubiao{
+    margin-top: 6px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    background:#fff url(../images/npbg.png) -240px -30px no-repeat;
+    position: absolute;
+    text-indent: 2em;
+}
+/*�м������ȴʲ���*/
+.logo .search-hotwords{
+    width: 545px;
+    height: 30px;
+    /*margin-top: 70px;*/
+    float: left;
+}
+.logo .search-hotwords a{
+    color: #999999;
+    margin-left: 5px;
+}
+.logo .search-hotwords a:hover{
+    color: #FF6600;
+    text-decoration: none;
+}

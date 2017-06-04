@@ -1,0 +1,552 @@
+/*中间主体部分开始=====================*/
+.main-middle {
+    /*margin-top: 12px;*/
+    height: 476px;
+}
+/*主体导航栏*/
+
+.main-middle-nav {
+    /*width: 100%;*/
+    height: 36px;
+    background: url(../images/middle.jpg) 0 0 no-repeat;
+}
+
+.fixed{
+    position: fixed;
+}
+.middle-nav {
+    height: 36px;
+
+}
+/*主体导航栏左侧*/
+.middle-nav-fl {
+    width: 195px;
+    height: 36px;
+    float: left;
+    background-color: #FF9900;
+    position: relative;
+
+}
+.middle-nav-fl em {
+    width: 17px;
+    height: 16px;
+    position: absolute;
+    left: 16px;
+    top:10px;
+    background: url(../images/l-1.png) 0 0 no-repeat;
+}
+.middle-nav-fl h3 {
+    margin-top: 10px;
+    font: 700 16px "微软雅黑";
+    margin-left: 42px;
+    color: #000;
+    cursor: pointer;
+}
+/*主体导航栏右侧*/
+.middle-nav ul {
+    float: left;
+    height: 36px;
+    margin-left: 9px;
+
+}
+.middle-nav ul li {
+    float: left;
+    margin: 0 13px;
+    position: relative;
+}
+.middle-nav li b {
+    background: url(../images/16.png) 0 0 no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: 1px;
+    left: -25px;
+}
+/*移动的小图标*/
+.middle-nav li i{
+    width: 16px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    background: url("../images/indexnew-bg.png") no-repeat -140px -58px;
+    top:37px;
+    left: 21px;
+}
+.middle-nav .i2 {
+    position: absolute;
+    left: 15px;
+}
+.middle-nav .i3 {
+    position: absolute;
+    left: 21px;
+}
+.middle-nav .i4 {
+    position: absolute;
+    left: 16px;
+}
+.middle-nav .i5 {
+    position: absolute;
+    left: 28px;
+}
+.middle-nav .i6 {
+    position: absolute;
+    left: 16px;
+}
+.middle-nav .i7 {
+    position: absolute;
+    left: 22px;
+}
+.middle-nav .i8 {
+    position: absolute;
+    left: 16px;
+}
+.middle-nav .i9 {
+    position: absolute;
+    left: 29px;
+}
+.middle-nav li a {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+/*轮播图的背景色*/
+.middle-bg {
+    height: 440px;
+    position: absolute;
+    width: 100%;
+}
+/*中间主体*/
+.middle-banner {
+    height: 440px;
+    position: relative;
+    left: 0;
+
+}
+/*主体左侧菜单栏*/
+.left-banner {
+    float: left;
+    height: 435px;
+    width: 195px;
+    background-color: #381F21;
+    position: relative;
+    border-top: 1px solid black;
+}
+.left-banner ul li {
+    height: 31px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.left-banner li a {
+    font: 13px "微软雅黑";
+    color: #fff;
+}
+.left-banner li a:hover{
+    color: #A90015;
+}
+.left-banner ul li:hover {
+    background-color: #FF9900;
+}
+.left-banner span {
+    line-height: 34px;
+    margin: 0 5px;
+    color: #fff;
+}
+/*列表中鼠标进入时显示的div*/
+.left-banner .left-banner-item{
+    display: none;
+}
+.left-banner .bannercurrent{
+    /*border-top: 1px solid black;*/
+    display: block;
+    position: absolute;
+    z-index: 15;
+    left: 195px;
+    top: -1px;
+}
+/*主体轮播图*/
+.center-banner {
+    float: left;
+    width: 770px;
+    height: 436px;
+    position: relative;
+    overflow: hidden;
+}
+/*轮播图片*/
+.center-banner .lunbotu {
+    position: relative;
+    width: 1000%;
+    left: 0;
+    top: 0;
+}
+.center-banner .lunbotu li {
+    float: left;
+}
+/*小圆点*/
+.center-banner .slder-item {
+    width: 175px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -85px;
+}
+.slder-item ul li {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 8px;
+    text-align: center;
+    float: left;
+    background-color: #393C59;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+/*小圆点的背景色*/
+.slder-item .color-bgc {
+    background-color: #DC6231;
+}
+/*左右按钮*/
+.center-banner .pages  {
+    width: 770px;
+    height: 64px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+
+}
+.center-banner .pages a {
+    width: 30px;
+    height: 64px;
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    line-height: 64px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .2);
+}
+.center-banner .pages a:hover{
+    background-color: rgba(0, 0, 0, .7);
+}
+.pages .arrow-left {
+    float: left;
+}
+.pages .arrow-right {
+    float: right;
+}
+/*主体右侧信息*/
+.right-banner {
+    float: right;
+    width: 225px;
+    height: 426px;
+    background-color: #fff;
+    margin-top: 10px;
+    position: relative;
+}
+/*右侧新闻部分*/
+.banner-news {
+    margin: 0 15px;
+}
+/*新闻导航栏*/
+.right-banner .news-nav {
+    height: 30px;
+    border-bottom: 1px solid #F6F7F8;
+}
+.news-nav ul li {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin: 0 18px;
+    position: relative;
+}
+.news-nav .news-line {
+    width: 32px;
+    height: 2px;
+    background-color: #FF6000;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+}
+/*新闻内容*/
+.news-content {
+    height: 125px;
+    margin-top: 10px;
+}
+.news-content li {
+    height: 29px;
+    line-height: 29px;
+}
+.news-content ul {
+    display: none;
+}
+.news-content .current {
+    display: block;
+}
+/*生活区*/
+.banner-life {
+    height: 183px;
+    border-top: 2px solid #F6F7F8;
+    border-bottom: 1px solid #F6F7F8;
+}
+.banner-life li {
+    float: left;
+    width: 74px;
+    height: 60px;
+    border-right: 1px solid #F6F7F8;
+    border-bottom: 1px solid #F6F7F8;
+    position: relative;
+
+}
+.banner-life li a {  /*文字*/
+    display: block;
+    width: 74px;
+    height: 25px;
+    margin-top: 35px;
+    text-align: center;
+}
+.banner-life li a:hover {
+    color: #FF9900;
+}
+.banner-life li i{ /*小图*/
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url("../images/sprite_fs@1x.png")no-repeat;
+    top: 10px;
+    left: 24px;
+}
+.banner-life li .i1{
+    background-position: 0 -89px;
+}
+.banner-life li .i2{
+    background-position: 0 -45px;
+}
+.banner-life li .i3{
+    background-position: -45px -88px;
+}
+.banner-life li .i4{
+    background-position: -89px 0;
+}
+.banner-life li .i5{
+    background-position: -89px -45px;
+}
+.banner-life li .i6{
+    background-position: 0 -0;
+}
+.banner-life li .i7{
+    background-position: -45px -45px;
+}
+.banner-life li .i8{
+    background-position: -45px 0;
+}
+.banner-life li .i9{
+    background-position: -134px 0;
+}
+.banner-life li .i10{
+    background-position: -134px -45px;
+}
+.banner-life li .i11{
+    background-position: -134px -88px;
+}
+.banner-life li .i12{
+    background-position: -45px 0;
+}
+
+/*App区*/
+.app {
+    position: relative;
+}
+.app h3{
+    font: 600 16px "微软雅黑";
+    margin: 12px 0 6px 14px;
+}
+.app a {
+    display: block;
+    width: 33px;
+    height: 32px;
+    float: left;
+    margin-left: 16px;
+}
+.app a i{
+    display: block;
+    width: 33px;
+    height: 32px;
+    background: url(../images/indexnew-bg.png)  no-repeat;
+    position: absolute;
+}
+.app .i1 {
+    background-position: -169px -38px;
+}
+.app .i2 {
+    background-position: -168px 0;
+}
+.app .i3 {
+    background-position: -128px 0;
+}
+.app .i4 {
+    background-position: -88px 0;
+}
+/*中间主体部分结束=====================*/
+
+
+
+
+/*浮动的导航栏*/
+.position-nav {
+    height: 40px;
+    z-index: 200;
+    background-color: rgba(169, 0, 21,.5);
+
+    margin-left: 80px;
+}
+.position-nav .position-nav-fl {
+    width: 195px;
+    height: 40px;
+    float: left;
+    background-color: rgba(255, 153, 0, .8);
+    position: relative;
+
+}
+.position-nav .position-nav-fl em {
+    width: 17px;
+    height: 16px;
+    position: absolute;
+    left: 16px;
+    top:10px;
+    background: url(../images/l-1.png) 0 0 no-repeat;
+}
+.position-nav .position-nav-fl h4 {
+    margin-top: 10px;
+    font: 700 16px "微软雅黑";
+    margin-left: 40px;
+    color: #000;
+    cursor: pointer;
+}
+
+#position-item {
+    display: none;
+}
+
+/*搜索框*/
+
+.position-nav .position-nav-fr {
+    height: 40px;
+    margin-left: 140px;
+    float: left;
+    position: relative;
+    width: 650px;
+}
+
+
+.position-nav-fr .ng-header-search .ng-search-top {
+    width: 548px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+.position-nav-fr .ng-search-top em{
+    position: absolute;
+    left:10px;
+    top:13px;
+    font-size: 16px;
+    color:#CCCFDA;
+}
+.position-nav-fr .ng-search-top input {
+    float:left;
+    margin:0;
+    padding:0;
+    border:0;
+
+}
+.position-nav-fr .ng-search-top #input-txt-fixed {
+    border:2px solid #F7A705;
+    border-right: 0;
+    color:#BBBBBB;
+    font-family: "微软雅黑";
+    padding-left: 35px;
+}
+.position-nav-fr .ng-search-top #btnFixed {
+    background-color: #F7A705;
+    color: #333333;
+    font: 700 16px "微软雅黑";
+}
+
+
+/*右侧登录 注册 购物车*/
+.position-nav .positionLast {
+    height: 42px;
+    float: left;
+
+}
+.positionLast .login {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    margin-left: 50px;
+}
+.positionLast .login a {
+    font-size: 16px;
+    line-height: 42px;
+    height:35px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: white;
+}
+.positionLast .login a:hover {
+    color: #F7A705;
+}
+
+
+.position-nav-fl #position-item {
+    float: left;
+    width: 195px;
+    background-color: #381F21;
+    position: absolute;
+    top: 40px;
+    left: 1px;
+    border-top: 1px solid black;
+}
+#position-item li {
+    height: 31px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+#position-item li a {
+    font: 13px "微软雅黑";
+    color: #fff;
+}
+#position-item li a:hover{
+    color: #A90015;
+}
+#position-item li:hover {
+    background-color: #FF9900;
+}
+#position-item span {
+    line-height: 34px;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.position-banner-item div {
+    display: none;
+}
+
+#postionvItem {
+    position: absolute;
+    top: 40px;
+    left: 195px;
+}
+
+
+
+

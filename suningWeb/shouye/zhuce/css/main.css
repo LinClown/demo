@@ -1,0 +1,163 @@
+/*.main {*/
+    /*height: 482px;*/
+/*}*/
+.main .main_center {
+    height: 478px;
+    border-top: 3px solid #FF9900 ;
+    border-bottom:1px solid #DDDDDD;
+    background-color: #fff;
+}
+.main .main_center .reg-form {
+    width: 380px;
+    margin: 0 auto;
+    font-family:"微软雅黑";
+    /*background-color: #00ffff;*/
+    padding: 55px 0;
+}
+.main .main_center .reg-form .gift {
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 2px;
+    margin-bottom: 17px;
+}
+.main .main_center .reg-form .gift i{
+    float: left;
+    width: 19px;
+    height: 17px;
+    margin-right: 6px;
+    background: url("../images/sprite.png") no-repeat -75px -93px;
+}
+.main .main_center .reg-form .gift em {
+    color: #f40;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.main .main_center .reg-form .phone {
+    width: 378px;
+    height: 38px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    line-height: 38px;
+}
+.main .main_center .reg-form .phone .title {
+    float: left;
+    width: 76px;
+    padding-left: 11px;
+}
+.main .main_center .reg-form .phone .mobileNum {
+    height: 38px;
+    margin-top: -4px;
+    width: 291px;
+    /*position: relative;*/
+}
+.main .main_center .reg-form .phone .yanzhengma-msg {
+    line-height: 22px;
+}
+
+/*.main .main_center .reg-form .phone input {*/
+    /*position: relative;*/
+/*}*/
+/*.main .main_center .reg-form .phone .ok {*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+    /*top:11px;*/
+    /*right: 12px;*/
+    /*background: url("../images/sprite.png") no-repeat -120px -93px;*/
+/*}*/
+.main .main_center .reg-form .phone .mobileSpan {
+    color: red;
+    height: 22px;
+    line-height: 22px;
+    margin: -25px 0 3px;
+}
+.main .main_center .reg-form .phone .yanzhengma {
+    float: left;
+    width: 142px;
+    height: 100%;
+}
+.main .main_center .reg-form .phone .send-msg {
+    float: left;
+    width: 148px;
+    height: 100%;
+    line-height: 38px;
+    text-align: center;
+    background: #f5f5f5;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    margin: -1px -1px 0 0;
+    text-decoration: none;
+}
+.main .main_center .reg-form .phone input {
+    color:#cacaca;
+}
+.main .main_center .reg-form .phone .tips {
+    width: 380px;
+    height: 50px;
+}
+.main .main_center .reg-form .items {
+    color:#666;
+    display: block;
+}
+.main .main_center .reg-form .accept-items {
+    color: red;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: -24px;
+}
+.main .main_center .reg-form .hide {
+    display: none;
+}
+.main .main_center .reg-form .submit-btn {
+    display: block;
+    width: 380px;
+    height: 40px;
+    line-height: 40px;
+    background: #f60;
+    font-size: 20px;
+    color: #fff;
+    margin: 24px 0 5px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+.main .main_center .reg-form .enter-reg:hover {
+    color :#f60;
+}
+.main .main_center .reg-form .phone .tips .suggestion {
+    line-height: 22px;
+}
+.main .main_center .reg-form .phone .tips .suggestion em {
+    color:#999;
+    font-style: normal;
+}
+.main .main_center .reg-form .phone .tips .security-level {
+    line-height: 22px;
+    height: 22px;
+}
+.main .main_center .reg-form .phone .tips .security-level .level {
+    width: 50px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 2px;
+    /*color: #fff;*/
+    margin-top: 3px;
+    display: block;
+}
+.main .main_center .reg-form .phone .tips .security-level .level1 {
+
+    background: #cacaca;
+}
+.main .main_center .reg-form .phone .tips .security-level .level2,
+.main .main_center .reg-form .phone .tips .security-level .level3{
+
+    background: #cacaca;
+
+}
+.main .main_center .reg-form .phone .tips .security-level span {
+    float: left;
+}
